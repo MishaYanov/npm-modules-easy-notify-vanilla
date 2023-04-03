@@ -1,0 +1,19 @@
+{
+  "name": "easy-notify-vanilla",
+  "private": false,
+  "version": "0.1.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "eslint": "^8.37.0"
+  }
+}
