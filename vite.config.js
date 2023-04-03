@@ -12,7 +12,7 @@ export default defineConfig({
         entry: resolve(__dirname, 'lib/index.js'),
         name: 'easy-notify-vanilla',
         formats: ["es", "cjs"],
-        fileName: (format) => `easy-notify-vanilla.${format}.js`,
+        fileName: (format) => `index.${format}.js`,
       },
       rollupOptions: {
         // overwrite default .html entry
