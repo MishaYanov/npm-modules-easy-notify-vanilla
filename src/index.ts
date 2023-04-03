@@ -75,6 +75,7 @@ function buildNotify(consts: INotifyConstants, config?: INotifyConfig) {
 
 function invokeNotification(nContainer: HTMLElement, timeout: number) {
   const body = document.body;
+  configBuilder.pushStyles();
   nContainer.classList.add("notify-container--animation_in");
   body.appendChild(nContainer);
   setTimeout(() => {
@@ -87,12 +88,6 @@ function invokeNotification(nContainer: HTMLElement, timeout: number) {
 
 
 }
-
-
-
-
-
-
 
 // Path: easy-notify/src/models/InotifyParams.ts
 // Path: easy-notify/src/logic/Configure.ts
