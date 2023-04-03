@@ -81,5 +81,5 @@ width?: false/number - custom width if false defualt value.
 ##### Github:
 
 ```
-
+[Link to Github](https://github.com/MishaYanov/npm-modules-easy-notify-vanilla)
 ```
