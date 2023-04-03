@@ -54,13 +54,13 @@ top: false/number - distance from top if false defualt value.
 
 bottom: false/number - distance from bottom if false defualt value.
 
-left?: false/number - distance from left if false defualt value.
+left: false/number - distance from left if false defualt value.
 
-right?: false/number - distance from right if false defualt value.
+right: false/number - distance from right if false defualt value.
 
-height?: false/number - custom height if false defualt value.
+height: false/number - custom height if false defualt value.
 
-width?: false/number - custom width if false defualt value.
+width: false/number - custom width if false defualt value.
 
 ##### Examples:
 ---------------
@@ -80,6 +80,4 @@ width?: false/number - custom width if false defualt value.
 
 ##### Github:
 
-```
 [Link to Github](https://github.com/MishaYanov/npm-modules-easy-notify-vanilla)
-```
