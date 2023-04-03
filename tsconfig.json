@@ -17,12 +17,13 @@
     "skipLibCheck": true,
     "outDir": "./lib",
     "baseUrl": ".",
+    "jsx": "react-jsx",
     "paths": {
-      "easy-notify-vanilla": [ "src/main.ts" ]
+      "easy-notify-vanilla": [ "src/index.ts" ]
     },
     "typeRoots": [
+      "./dist/index.d.ts",
       "node_modules/@types",
-      "src/main.d.ts"
     ]
   },
   "include": ["src"]

@@ -1,4 +1,6 @@
 import { defineConfig } from 'vite'
+import { resolve } from 'path'
+import dts from 'vite-plugin-dts'
 
 export default defineConfig({
     build: {
@@ -7,14 +9,17 @@ export default defineConfig({
       minify: true,
       reportCompressedSize: true,
       lib:{
-        entry: 'src/main.ts',
+        entry: resolve(__dirname, 'lib/index.js'),
         name: 'easy-notify-vanilla',
         formats: ["es", "cjs"],
         fileName: (format) => `easy-notify-vanilla.${format}.js`,
       },
       rollupOptions: {
         // overwrite default .html entry
-        input: '/src/main.ts',
+        input: '/src/index.ts',
       },
+      sourcemap: true,
+      emptyOutDir: true,
     },
+    plugins: [dts()],
   })

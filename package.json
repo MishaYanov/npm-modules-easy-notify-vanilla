@@ -1,17 +1,35 @@
 {
   "name": "easy-notify-vanilla",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports":{
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "/dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "compile": "tsc"
+    "compile": "tsc",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "typescript": "^4.9.3",
-    "vite": "^4.2.0"
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^2.1.0"
   },
   "dependencies": {
     "eslint": "^8.37.0"
