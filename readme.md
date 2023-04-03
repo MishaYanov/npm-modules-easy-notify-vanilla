@@ -2,7 +2,8 @@
 ------------------------------
 
 ## Description
-This package is doing somthing you are probablily to lazy to do and this is apply pretty good looking notifications, with the easiest setup you can possibly imagine.
+This package is doing somthing you are probably too lazy to do. 
+Using this package you will be able to run simple notifications on you page. 
 
 ## instalation
 
@@ -23,7 +24,7 @@ __________________
 
 #### Must have:
 ---------------
-the first object is a must have which will provide you with the simplest notification possible
+the first object is a *must have* which will provide you with the simplest notification possible
 
 type: the type of the notification - can be: "success" | "error" | "warning" | "info"
 
@@ -37,11 +38,13 @@ notify({type: "success", message: "Hello World"});
 #### Optional values:
 ---------------------
 
-in optional values you can add diffrent configurations that you may need or not, this is a diffrent objectin the function call and it has the next values:
+in optional values object you can add diffrent configurations that you may need or not, setting up various styling options.
+
+###### The Options:
 
 isIcon: = true/false - each type has it's own specific icon;
   
-timeout: number - this is configured is ms => 1s = 1000ms
+timeout: number - this is configured in ms => 1s = 1000ms
 
 position: you can change the position of the notification: 
 "top-left" | "top-right" | "bottom-left" | "bottom-right"
