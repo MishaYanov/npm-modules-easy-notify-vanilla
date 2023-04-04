@@ -5,7 +5,7 @@
 This package is doing somthing you are probably too lazy to do. 
 Using this package you will be able to run simple notifications on you page. 
 
-## instalation
+## installation
 
 ```
  npm i easy-notify-vanilla
