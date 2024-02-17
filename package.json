@@ -1,7 +1,15 @@
 {
   "name": "easy-notify-vanilla",
   "private": false,
-  "version": "0.2.6",
+  "version": "0.2.7",
+  "keywords": [
+    "notify",
+    "notification",
+    "toast",
+    "alert",
+    "message",
+    "vanilla"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",

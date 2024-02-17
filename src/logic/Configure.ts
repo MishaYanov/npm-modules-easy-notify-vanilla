@@ -33,8 +33,8 @@ export const configBuilder: any = {
   },
   changeSizeProperties(
     notifyContainer: HTMLElement,
-    height: number,
-    width: number
+    width: number,
+    height: number
   ) {
     if (!height || !width) return;
     if (height && height > 20) {
